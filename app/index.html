@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Тестовое задание Frontend</title>
+</head>
+<body>
+    <form action="https://digital-spectr.com/ac/academy.php" method="POST" class="form-send">
+        <span class="form-send__headline">Задать вопрос</span>
+        <input class="form-send__input" type="text" name="name" id="name" placeholder="Фамилия Имя Отчество *" pattern="[А-Яа-яЁё -]{1,}" required>
+        <input class="form-send__input" type="tel" name="phone" id="phone" placeholder="Телефон *" pattern="[\d +-]{1,}" required>
+        <input class="form-send__input" type="email" name="email" id="email" placeholder="Email">
+        <input class="form-send__input form-send__input_submit" type="submit" value="Отправить запрос">
+    </form>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
